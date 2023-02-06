@@ -1,0 +1,7 @@
+
+@
+java:S11814"%Catch Exception instead of Throwable.(·—šìúÿÿÿÿ
+O
+java:S47190"9Replace charset name argument with StandardCharsets.UTF_8(Ûá×Û
+E
+java:S2093,"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ

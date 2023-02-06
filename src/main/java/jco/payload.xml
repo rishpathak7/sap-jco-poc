@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<EXCHANGE_RATE01>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDIDC_40</TABNAM>
+            <IDOCTYP>EXCHANGE_RATE01</IDOCTYP>
+            <MESTYP>EXCHANGE_RATE</MESTYP>
+            <SNDPOR>MUL_INB</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDPRN>MULE_DEV</SNDPRN>
+            <RCVPOR>SAPRS4</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPRN>RS4CLNT900</RCVPRN>
+        </EDI_DC40>
+        <E1EXCHANGE_RATE SEGMENT="1">
+            <LOG_SYSTEM>MULE_DEV</LOG_SYSTEM>
+            <UPD_ALLOW>X</UPD_ALLOW>
+            <E1BP1093_0 SEGMENT="1">
+                <RATE_TYPE>M</RATE_TYPE>
+                <FROM_CURR>CAD</FROM_CURR>
+                <TO_CURRNCY>INR</TO_CURRNCY>
+                <VALID_FROM>20020101</VALID_FROM>
+                <EXCH_RATE>4.92</EXCH_RATE>
+                <FROM_FACTOR>2.0</FROM_FACTOR>
+                <TO_FACTOR>2.0</TO_FACTOR>
+            </E1BP1093_0>
+        </E1EXCHANGE_RATE>
+    </IDOC>
+</EXCHANGE_RATE01>

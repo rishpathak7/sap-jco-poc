@@ -1,7 +1,11 @@
 package jco;
 
-import com.sap.conn.jco.*;
+import com.sap.conn.jco.JCoDestination;
+import com.sap.conn.jco.JCoDestinationManager;
+import com.sap.conn.jco.JCoFunction;
+import com.sap.conn.jco.JCoParameterList;
 import com.sap.conn.jco.ext.DestinationDataProvider;
+import org.json.XML;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -9,7 +13,7 @@ import java.util.Properties;
 
 // Reference xml file
 // https://github.com/Deloitte/mule-sap-finance-invoice-sapi/blob/develop/src/main/mule/postInvoicesImpl.xml
-public class BAPIConnectorWithFunctions {
+public class SAPFinanceExchangeRate {
     static String   IP="10.241.163.214", //IP or HOST
             USER="khsarkar", // user name of SAP
             PASSWORD=")js5Rm8M#nhy)U1P!*<r", // password of SAP
@@ -23,7 +27,7 @@ public class BAPIConnectorWithFunctions {
 
         try {
             // This will create a file called mySAPSystem.jcoDestination
-            String DESTINATION_NAME1 = "Z_CUSTOMER_OLDEST_OPEN_ITEM";
+            String DESTINATION_NAME1 = "BAPI_EXCHANGERATE_GETDETAIL";
             Properties connectProperties = new Properties();
             connectProperties.setProperty(DestinationDataProvider.JCO_ASHOST,   IP);
             connectProperties.setProperty(DestinationDataProvider.JCO_SYSNR,    SYSNR);
@@ -37,24 +41,36 @@ public class BAPIConnectorWithFunctions {
 
             createDestinationDataFile(DESTINATION_NAME1,connectProperties);
 
-            JCoDestination destination = JCoDestinationManager.getDestination("Z_CUSTOMER_OLDEST_OPEN_ITEM");
-
-            JCoFunction function = destination.getRepository().getFunction("Z_CUSTOMER_OLDEST_OPEN_ITEM");
+            JCoDestination destination = JCoDestinationManager.getDestination("BAPI_EXCHANGERATE_GETDETAIL");
+            destination.ping();
+            JCoFunction function = destination.getRepository().getFunction("BAPI_EXCHANGERATE_GETDETAIL");
             JCoParameterList input = function.getImportParameterList();
             System.out.println(input.getListMetaData());
-            input.setValue("BUKRS","US01");
-            input.setValue("KUNNR","0000000011");
+            input.setValue("DATE","20200427");
+            input.setValue("FROM_CURR","");
+            input.setValue("RATE_TYPE","123");
+            input.setValue("TO_CURRNCY","");
             System.out.println(input.getListMetaData());
 
             function.execute(destination);
-            JCoParameterList tableParameterList = function.getTableParameterList();
-            JCoParameterFieldIterator parameterFieldIterator = tableParameterList.getParameterFieldIterator();
-            System.out.println(parameterFieldIterator.toString());
 
-            JCoParameterList output = function.getExportParameterList();
-            String result = output.getString("RESULT_NAME");
-            output.getParameterFieldIterator().toString();
-            System.out.println(output.getParameterFieldIterator());
+            String output = function.getExportParameterList().toXML();
+            System.out.println(XML.toJSONObject(output));
+//            GetExchangeRate response = (GetExchangeRate) JsonUtil.jsonMapper(XML.toJSONObject(output).toString(), new TypeReference<GetExchangeRate>() {
+//            });
+//            System.out.println(response.oUTPUT);
+//            String result = output.getString("EXCH_RATE");
+//            ExchangeRate result = (ExchangeRate) output.getValue("EXCH_RATE");
+//
+//            System.out.println("output = " + result);
+//            JCoTable table = function.getTableParameterList().getTable("EXCH_RATE");
+//            for (int i = 0; i < table.getNumRows(); i++) {
+//                table.setRow(i);
+//                String field1 = table.getString("RATE");
+////                String field2 = table.getString("VALID_FROM");
+//                System.out.println(field1);
+//                // process the results of the table row
+//            }
 
         } catch(Exception ex) {
             System.out.println("exception "+ex.toString());

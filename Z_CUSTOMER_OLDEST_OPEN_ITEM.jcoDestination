@@ -1,0 +1,11 @@
+#for tests only !
+#Tue Jan 24 15:34:56 IST 2023
+jco.client.lang=en
+jco.client.passwd=)js5Rm8M\#nhy)U1P\!*<r
+jco.client.sysnr=01
+jco.destination.auth_type=Basic
+jco.destination.pool_capacity=3
+jco.client.client=200
+jco.destination.peak_limit=10
+jco.client.user=khsarkar
+jco.client.ashost=10.241.163.214
