@@ -1,0 +1,31 @@
+
+`	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(ãÀŒçøÿÿÿÿ
+w
+java:S1192"\Define a constant instead of duplicating this literal "Z_CUSTOMER_OLDEST_OPEN_ITEM" 3 times.(›ûÍÖşÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ûÍÖşÿÿÿÿ
+c
+java:S3008"MRename this field "IP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Úúş
+j
+java:S3008"ORename this field "USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£„ŞÆıÿÿÿÿ
+n
+java:S3008"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áöµşÿÿÿÿ
+l
+java:S3008"QRename this field "CLIENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁåÇ¶şÿÿÿÿ
+k
+java:S3008"PRename this field "SYSNR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•´ùùÿÿÿÿ
+e
+java:S3008"ORename this field "LANG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØøÜ¶
+o
+java:S3008"TRename this field "AUTH_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¾ ÿÿÿÿÿ
+\
+java:S1659"ADeclare "USER" and all following declarations on a separate line.(£„ŞÆıÿÿÿÿ
+P
+java:S18547":Remove this useless assignment to local variable "result".(ì¨ñŸ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿â¤ü
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ÁÕ‰×ùÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(ÁÕ‰×ùÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(¹ß€¤
+A
+java:S14817"+Remove this unused "result" local variable.(ì¨ñŸ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(Ë–¸×
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(Ÿ“Õèûÿÿÿÿ

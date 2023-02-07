@@ -1,0 +1,13 @@
+
+@
+java:S1181>"%Catch Exception instead of Throwable.(·—šìúÿÿÿÿ
+O
+java:S4719:"9Replace charset name argument with StandardCharsets.UTF_8(Ûá×Û
+E
+java:S20936"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(Î°˜üÿÿÿÿ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(Î°˜üÿÿÿÿ
+S	java:S106q"9Replace this use of System.out or System.err by a logger.(Ì« ìúÿÿÿÿ
+S	java:S106w"9Replace this use of System.out or System.err by a logger.(–ˆúõùÿÿÿÿ
+S	java:S106|"9Replace this use of System.out or System.err by a logger.( ÄÔöøÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(âèÊ‘úÿÿÿÿ

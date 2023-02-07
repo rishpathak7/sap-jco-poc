@@ -1,0 +1,29 @@
+
+`	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(ãÀŒçøÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ê¿‡
+c
+java:S3008"MRename this field "IP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Úúş
+j
+java:S3008"ORename this field "USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£„ŞÆıÿÿÿÿ
+n
+java:S3008"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áöµşÿÿÿÿ
+l
+java:S3008"QRename this field "CLIENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁåÇ¶şÿÿÿÿ
+k
+java:S3008"PRename this field "SYSNR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•´ùùÿÿÿÿ
+e
+java:S3008"ORename this field "LANG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØøÜ¶
+o
+java:S3008"TRename this field "AUTH_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¾ ÿÿÿÿÿ
+\
+java:S1659"ADeclare "USER" and all following declarations on a separate line.(£„ŞÆıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿â¤ü
+f
+java:S21475"DCombine this catch with the one at line 51, which has the same body.(±Ÿ—±ÿÿÿÿÿ8¹Óù‹à0
+V	java:S125*"<This block of commented-out lines of code should be removed.(Ñ·¬“üÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(’ÙìÙüÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(â¦ã¶
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Q	java:S1252"<This block of commented-out lines of code should be removed.(©³´Î
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(Ÿ“Õèûÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(Ÿ“Õèûÿÿÿÿ

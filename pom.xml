@@ -21,10 +21,31 @@
             <version>4.2.0</version>
         </dependency>
         <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20220924</version>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.jcodec</groupId>
+            <artifactId>jcodec-streaming</artifactId>
+            <version>0.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jcodec</groupId>
+            <artifactId>jcodec</artifactId>
+            <version>0.2.5</version>
+        </dependency>
+        <!--        <dependency>-->
+<!--            <groupId>com.sap.conn.idoc</groupId>-->
+<!--            <artifactId>sapidoc3</artifactId>-->
+<!--            <version>3.0.12</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
     </dependencies>
 </project>

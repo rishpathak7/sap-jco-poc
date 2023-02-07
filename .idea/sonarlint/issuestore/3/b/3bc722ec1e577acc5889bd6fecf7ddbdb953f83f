@@ -1,0 +1,25 @@
+
+`	java:S112S"FDefine and throw a dedicated exception instead of using a generic one.(ãÀŒçøÿÿÿÿ
+o
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(ï•©
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ê¿‡
+c
+java:S3008"MRename this field "IP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Úúş
+j
+java:S3008"ORename this field "USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£„ŞÆıÿÿÿÿ
+n
+java:S3008"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áöµşÿÿÿÿ
+l
+java:S3008"QRename this field "CLIENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁåÇ¶şÿÿÿÿ
+k
+java:S3008"PRename this field "SYSNR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•´ùùÿÿÿÿ
+e
+java:S3008"ORename this field "LANG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØøÜ¶
+o
+java:S3008"TRename this field "AUTH_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¾ ÿÿÿÿÿ
+\
+java:S1659"ADeclare "USER" and all following declarations on a separate line.(£„ŞÆıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿â¤ü
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(¯ê®í
+V	java:S125@"<This block of commented-out lines of code should be removed.(Ø‰·ûÿÿÿÿ
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(Ÿ“Õèûÿÿÿÿ

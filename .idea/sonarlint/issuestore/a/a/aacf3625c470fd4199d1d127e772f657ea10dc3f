@@ -1,0 +1,11 @@
+
+^
+java:S1854	"CRemove this useless assignment to local variable "controllingArea".(µÀµüÿÿÿÿ
+Y
+java:S1854"CRemove this useless assignment to local variable "destinationName".(±èüÏ
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¹£ş
+J
+java:S1481"4Remove this unused "destinationName" local variable.(±èüÏ
+O
+java:S1481	"4Remove this unused "controllingArea" local variable.(µÀµüÿÿÿÿ
