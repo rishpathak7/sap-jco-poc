@@ -45,17 +45,19 @@ public class SAPFinanceExchangeRate {
             destination.ping();
             JCoFunction function = destination.getRepository().getFunction("BAPI_EXCHANGERATE_GETDETAIL");
             JCoParameterList input = function.getImportParameterList();
+            System.out.println(function);
             System.out.println(input.getListMetaData());
-            input.setValue("DATE","20200427");
-            input.setValue("FROM_CURR","");
+            input.setValue("DATE","202103031");
+            input.setValue("FROM_CURR","INR");
             input.setValue("RATE_TYPE","123");
-            input.setValue("TO_CURRNCY","");
+            input.setValue("TO_CURRNCY","USD");
             System.out.println(input.getListMetaData());
 
             function.execute(destination);
 
             String output = function.getExportParameterList().toXML();
             System.out.println(XML.toJSONObject(output));
+            System.out.println(function.getExportParameterList());
 //            GetExchangeRate response = (GetExchangeRate) JsonUtil.jsonMapper(XML.toJSONObject(output).toString(), new TypeReference<GetExchangeRate>() {
 //            });
 //            System.out.println(response.oUTPUT);

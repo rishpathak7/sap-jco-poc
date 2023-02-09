@@ -556,3 +556,171 @@ COUNTER     2
     return code: RFC_FAILURE (1)
     error group: 102
     key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20230207 114528 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error: [2] >Tue Feb 07 11:45:28,824<    RfcException raised by system [ARS|usawsconl0048]:
+    message: CPIC-CALL: SAP_CMKEEPALIVE on convId: 10778317
+no SAP ErrInfo available
+    return code: RFC_CLOSED (6)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20230208 130115 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error: [2] >Wed Feb 08 13:01:15,733<    RfcException raised by system [ARS|usawsconl0048]:
+    message: CPIC-CALL: SAP_CMKEEPALIVE on convId: 02282050
+no SAP ErrInfo available
+    return code: RFC_CLOSED (6)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20230208 130347 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error: [2] >Wed Feb 08 13:03:47,151<    RfcException raised by system [ARS|usawsconl0048]:
+    message: CPIC-CALL: SAP_CMKEEPALIVE on convId: 02438418
+no SAP ErrInfo available
+    return code: RFC_CLOSED (6)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20230208 170547 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error:  >Wed Feb 08 17:05:47,788<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=BAPI_GOODSMVT_GETITEMS ASHOST=10.241.163.214 SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.241.163.214:3301' not reached
+TIME        Wed Feb  8 17:05:47 2023
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nibuf.cpp
+LINE        4658
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       115
+ERRNO TEXT  Operation now in progress
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20230209 121205 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error:  >Thu Feb 09 12:12:05,531<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=BAPI_GOODSMVT_GETITEMS ASHOST=10.241.163.214 SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.241.163.214:3301' not reached
+TIME        Thu Feb  9 12:12:05 2023
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nibuf.cpp
+LINE        4658
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       115
+ERRNO TEXT  Operation now in progress
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20230209 131548 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error:  >Thu Feb 09 13:15:48,364<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=BAPI_GOODSMVT_GETITEMS ASHOST=10.241.163.214 SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.241.163.214:3301' not reached
+TIME        Thu Feb  9 13:15:48 2023
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nibuf.cpp
+LINE        4658
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       115
+ERRNO TEXT  Operation now in progress
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20230209 132950 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error:  >Thu Feb 09 13:29:50,636<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=BAPI_GOODSMVT_GETITEMS ASHOST=10.241.163.214 SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.241.163.214:3301' not reached
+TIME        Thu Feb  9 13:29:50 2023
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nibuf.cpp
+LINE        4658
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       115
+ERRNO TEXT  Operation now in progress
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20230209 133650 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error:  >Thu Feb 09 13:36:50,913<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=BAPI_EXCHANGERATE_GETDETAIL ASHOST=10.241.163.214 SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.241.163.214:3301' not reached
+TIME        Thu Feb  9 13:36:50 2023
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nibuf.cpp
+LINE        4658
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       115
+ERRNO TEXT  Operation now in progress
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+**** Error file opened at 20230209 134145 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error:  >Thu Feb 09 13:41:45,076<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=BAPI_EXCHANGERATE_GETDETAIL ASHOST=10.241.163.214 SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.241.163.214:3301' not reached
+TIME        Thu Feb  9 13:41:45 2023
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nibuf.cpp
+LINE        4658
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       115
+ERRNO TEXT  Operation now in progress
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION

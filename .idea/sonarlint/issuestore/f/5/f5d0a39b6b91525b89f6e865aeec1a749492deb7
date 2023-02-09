@@ -5,3 +5,9 @@ O
 java:S47190"9Replace charset name argument with StandardCharsets.UTF_8(Ûá×Û
 E
 java:S2093,"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(Î°˜üÿÿÿÿ8ÂÓ¡Ôâ0
+Z	java:S106^"9Replace this use of System.out or System.err by a logger.(Î°˜üÿÿÿÿ8ÃÓ¡Ôâ0
+Z	java:S106g"9Replace this use of System.out or System.err by a logger.(Ì« ìúÿÿÿÿ8ÅÓ¡Ôâ0
+Z	java:S106m"9Replace this use of System.out or System.err by a logger.(–ˆúõùÿÿÿÿ8ÅÓ¡Ôâ0
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.( ÄÔöøÿÿÿÿ8ÆÓ¡Ôâ0
+Z	java:S106w"9Replace this use of System.out or System.err by a logger.(âèÊ‘úÿÿÿÿ8ÆÓ¡Ôâ0

@@ -45,7 +45,7 @@ public class IDOCConnector {
             FileReader fileReader;
 
             try {
-                fileReader = new FileReader("/home/llohithvarma/Documents/sap-jco-poc/src/main/java/jco/payload.xml");
+                fileReader = new FileReader("/home/bhanuprasingh/Desktop/JCO/sap-jco-poc/src/main/java/jco/payload.xml");
                 BufferedReader br = new BufferedReader(fileReader);
                 StringBuffer sb = new StringBuffer();
                 String line;
@@ -90,7 +90,10 @@ public class IDOCConnector {
                     iDocDocument.checkSyntax();
                 }
                 JCoIDoc.send(iDocList, IDocFactory.IDOC_VERSION_DEFAULT, destination, tid);
+                String status = iDocList.get(0).getStatus();
+                System.out.println(status);
                 destination.confirmTID(tid);
+                System.out.println(destination.getDestinationID());
 
                 System.out.println("TID: "+tid);
             }
