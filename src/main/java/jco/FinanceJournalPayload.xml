@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FIDCCP02>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDI_DC40</TABNAM>
+            <MANDT>100</MANDT>
+            <IDOCTYP>FIDCCP02</IDOCTYP>
+            <MESTYP>FIDCCP02</MESTYP>
+            <SNDPOR>INB_MULE</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDPRN>MULE_DEV</SNDPRN>
+            <RCVPOR>SAPRS4</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPRN>RS4CLNT900</RCVPRN>
+        </EDI_DC40>
+        <E1FIKPF SEGMENT="1">
+            <BUKRS>US01</BUKRS>
+            <GJAHR>2020</GJAHR>
+            <BLART>SA</BLART>
+            <BLDAT>20200422</BLDAT>
+            <BUDAT>20200422</BUDAT>
+            <MONAT>04</MONAT>
+            <WWERT>20200422</WWERT>
+            <BKTXT>Test Journal Entry 1</BKTXT>
+            <WAERS>USD</WAERS>
+            <GLVOR>RFBU</GLVOR>
+            <AWTYP>BKPFF</AWTYP>
+            <RLDNR>0L</RLDNR>
+            <E1FISEG>
+                <BUZEI>001</BUZEI>
+                <BSCHL>40</BSCHL>
+                <KOART>S</KOART>
+                <SHKZG>S</SHKZG>
+                <DMBTR>100.00</DMBTR>
+                <WRBTR>100.00</WRBTR>
+                <PSWBT>100.00</PSWBT>
+                <SGTXT>Test Line 1</SGTXT>
+                <KOKRS>US01</KOKRS>
+                <HKONT>0000111000</HKONT>
+            </E1FISEG>
+            <E1FISEG SEGMENT="1">
+                <BUZEI>001</BUZEI>
+                <BSCHL>50</BSCHL>
+                <KOART>S</KOART>
+                <SHKZG>H</SHKZG>
+                <DMBTR>100.00</DMBTR>
+                <WRBTR>100.00</WRBTR>
+                <PSWBT>100.00</PSWBT>
+                <SGTXT>Test Line 2</SGTXT>
+                <KOKRS>US01</KOKRS>
+                <HKONT>0000111000</HKONT>
+            </E1FISEG>
+        </E1FIKPF>
+    </IDOC>
+</FIDCCP02>
