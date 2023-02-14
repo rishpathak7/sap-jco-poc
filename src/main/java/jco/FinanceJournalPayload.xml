@@ -26,7 +26,7 @@
             <GLVOR>RFBU</GLVOR>
             <AWTYP>BKPFF</AWTYP>
             <RLDNR>0L</RLDNR>
-            <E1FISEG>
+            <E1FISEG SEGMENT="1">
                 <BUZEI>001</BUZEI>
                 <BSCHL>40</BSCHL>
                 <KOART>S</KOART>
