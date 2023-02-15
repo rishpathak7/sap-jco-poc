@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SRCLST01>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDIDC_40</TABNAM>
+            <IDOCTYP>SRCLST01</IDOCTYP>
+            <MESTYP>SRCLST</MESTYP>
+            <MESCOD>AB</MESCOD>
+            <SNDPOR>MUL_INB</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDPRN>MULE_DEV</SNDPRN>
+            <RCVPOR>SAPRS4</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPRN>RS4CLNT900</RCVPRN>
+        </EDI_DC40>
+        <E1EORDH SEGMENT="1">
+            <MATNR>1234567890</MATNR>
+            <WERKS>1234</WERKS>
+            <E1EORDM SEGMENT="1">
+                <ERNAM>12345678</ERNAM>
+                <VDATU>2021-03-30</VDATU>
+                <BDATU>2021-03-31</BDATU>
+                <LIFNR>1234</LIFNR>
+                <FLIFN/>
+                <EBELN/>
+                <EBELP/>
+                <FEBEL/>
+                <RESWK/>
+                <FRESW/>
+                <NOTKZ/>
+                <EKORG>1234</EKORG>
+                <VRTYP/>
+                <EORTP/>
+                <AUTET/>
+                <MEINS/>
+                <SOBKZ/>
+            </E1EORDM>
+        </E1EORDH>
+    </IDOC>
+</SRCLST01>
