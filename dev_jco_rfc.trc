@@ -1,0 +1,24 @@
+
+**** Error file opened at 20230220 124828 India Standard Time Rel. 3.0.14 (2015-12-16) [721.619]
+Error:  >Mon Feb 20 12:48:28,797<    RfcException:
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=BAPI_PRODORD_CREATE ASHOST=10.241.163.214 SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.241.163.214:3301' not reached
+TIME        Mon Feb 20 12:48:28 2023
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nibuf.cpp
+LINE        4658
+DETAIL      NiBufIConnect: connection pending after 60000ms
+SYSTEM CALL connect
+ERRNO       115
+ERRNO TEXT  Operation now in progress
+COUNTER     2
+
+    return code: RFC_FAILURE (1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
